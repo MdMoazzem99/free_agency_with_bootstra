@@ -1,0 +1,278 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*header start*/
+.header_1{
+	background-color: #f0f2f4;
+}
+.links{
+	margin: 5px 0px;
+}
+.links li a{
+	font-size: 15px;
+	color: #424242;
+	transition: .5s;
+}
+.links li a i{
+	font-size: 19px;
+	color: #424242;
+	transition: .5s;
+}
+.links li a:hover i{
+	color: #de2b24;
+}
+.links li a:hover{
+	color: #de2b24;
+	text-decoration: none;
+}
+.links li:last-child a i{
+	font-size: 26px;
+    color: #1287bf;
+    transition: .5s; 
+}
+.links li:last-child a:hover i{
+	color: #00acff;
+}
+.header_2{
+	padding: 10px 0px;
+}
+.menubar ul li a{
+	font-size: 15px;
+	font-weight: 700;
+	color: #424242;
+	transition: .5s;
+}
+.menubar ul li a:hover{
+	color: #de2b24 !important;
+}
+.dot{
+    margin: 16px 10px;
+    font-size: 8px;
+    color: #424242;
+}
+.b_margin {
+    margin-left: 63px;    
+    background-color: #de2b24;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    transition: .5s;
+}
+.b_margin:hover{
+	color: #424242;
+	background-color: #ff0a00;
+}
+/*header end*/
+/*bannar start*/
+.margin {
+    margin-top: 148px;
+    margin-bottom: 148px;
+}
+.text h2{
+	font-weight: 700;
+	font-size: 46px;
+	color: #ffffff;
+}
+.text p{
+	font-weight: 300;
+	font-size: 28px;
+	color: #ffffff;
+}
+.b_yellow{
+	background-color: #f8cd53;
+	font-weight: 700;
+	font-size: 23.43px;
+	color: #ffffff;
+	transition: .5s;
+}
+.b_yellow:hover{
+	background-color: #ffbd00;
+	color: #424242;
+}
+/*bannar end*/
+/*About Us start*/
+.common_item{
+	margin-top: 74px;
+}
+.common_item h2{
+	font-weight: 700;
+	font-size: 36px;
+	color: #424242;
+}
+.common_item p{
+	font-weight: 300;
+	font-size: 20px;
+	color: #424242;
+}
+.common_item hr{
+	border: none;
+	border-bottom: 5px solid #424242;
+	width: 40px;
+}
+.about_us{
+    margin: 40px 0px 71px;
+    padding: 0px 61px;
+}
+.about_us_text h2{
+	font-weight: 700;
+	font-size: 22px;
+	color: #424242;
+}
+.about_us_text p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13.5px;
+	color: #5c5c5c;
+}
+/*About Us end*/
+/*Our approch start*/
+#our_approch{
+	background-color: #f3f3f3;
+	padding-bottom: 85px;
+}
+.card_margin {
+    margin-top: 22px;
+    position: relative;
+}
+.card_text {
+    padding: 82px 105px;
+}
+.card_text h5{
+	font-size: 18px;
+	color: #424242;
+}
+.card_text p{
+	font-size: 13.5px;
+	color: #5c5c5c;
+}
+.step_1{
+	position: absolute;
+    left: 316px;
+    bottom: 74px;
+}
+.step_2 {
+    position: absolute;
+    right: 316px;
+    bottom: 74px;
+}
+/*Our approch end*/
+/*Our work start*/
+#our_work{
+	background-color: #de2b24;
+	padding-bottom: 85px;
+}
+.common_item_2{
+	margin-top: 74px;
+}
+.common_item_2 h2{
+	font-weight: 700;
+	font-size: 36px;
+	color: #ffffff;
+}
+.common_item_2 p{
+	font-weight: 300;
+	font-size: 20px;
+	color: #ffffff;
+}
+.common_item_2 hr{
+	border: none;
+	border-bottom: 5px solid #ffffff;
+	width: 40px;
+	margin-bottom: 40px;
+}
+.image{
+	position: relative;
+  	width: 50%;
+}
+.item{
+	display: block;
+  	width: 100%;
+  	height: auto;
+}
+.overlay{
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #f35e59;
+}
+.image:hover .overlay{
+	opacity: 1;
+}
+.overlay_text{
+  	position: absolute;
+  	top: 50%;
+    left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+.overlay_icon i{
+	font-size: 36px;
+	color: #f9afac;
+}
+.overlay_text h2{
+	font-weight: 700;
+	font-size: 24px;
+	color: #ffffff;
+}
+.overlay_text p{
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+}
+/*Our work end*/
+/*Facebook analysis start*/
+#facebook_analysis{
+	background-color: #1287bf;
+	padding-bottom: 74px;
+}
+.common_item_2 a i{
+	color: #ffffff;
+    font-size: 64px;
+    transition: .5s;
+}
+.common_item_2 a:hover i{
+	color: #de2b24;
+}
+.collapse_button{
+	position: relative;
+    left: 0px;
+    right: 0px;
+    margin-top: 104px;
+    background-color: #ffffff;
+}
+.collapse_button::before{
+	content: "";
+    position: absolute;
+    left: 41.6%;
+    bottom: 100%;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid white;}
+.collapse_icon{
+	position: absolute;
+    top: -7%;
+    right: -2%;
+    color: #ffffff;
+    font-size: 35px;
+    background-color: #de2b24;
+    border-radius: 25px;
+}
+.collapse_button p{
+	font-size: 15px;
+	color: #828282;
+}
+.form-row div input{
+	font-size: 14px;
+}
+.form-row div button{
+	background-color: #de2b24;
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffffff;
+}
+/*Facebook analysis end*/

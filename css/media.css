@@ -1,0 +1,378 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+	/*header start*/
+	/*header_2 start*/
+	.logo{
+		width: 150px;
+	}
+	.menubar ul li a{
+		margin: 3px 0px;
+    	font-size: 14px;
+	}
+	.b_margin {
+    	margin: 10px 0px;
+    	font-size: 14px;
+	}
+	/*header_2 end*/
+	/*header end*/
+	/*bannar start*/
+	#bannar{
+		background-color: brown;
+	}
+	.margin {
+    margin-top: 44px;
+    margin-bottom: 61px;
+	}	
+	.text h2{
+		font-size: 30px;
+	}
+	.text p{
+    	font-size: 16px;
+	}
+	.b_yellow{
+		font-size: 13.43px;
+	}
+	/*bannar end*/
+	/*about us start*/
+	.common_item {
+    	margin-top: 29px;
+	}
+	.common_item h2 {
+    	font-size: 22px;
+    	margin-bottom: 2px;
+	}
+	.common_item p {
+    	font-size: 12px;
+    	margin-bottom: 2px;
+	}
+	.common_item hr {
+    	width: 26px;
+    	margin: 12px auto 0px;
+    	border-bottom: 3px solid #424242;
+	}	
+	.about_us {
+    	margin: 23px 0px 18px;
+    	padding: 0px 71px;
+	}
+	.about_us_text h2{
+    	font-size: 16px;
+	}
+	.about_us_text p{
+    	font-size: 9.5px;
+	}
+	.about_us_img {
+    	height: 59px;
+    	margin-bottom: 2px;
+	}	
+	/*about us end*/
+	/*our approch start*/
+	#our_approch {
+        padding-bottom: 45px;
+	}
+	.card_margin {
+    	margin-top: 22px;
+	}
+	.card_text {
+    	padding: 22px 34px;
+    	text-align: center;
+	}
+	.card_text p {
+    	font-size: 10.5px;
+    	color: #5c5c5c;
+	}
+	/*our approch end*/
+	/*our work start*/
+	#our_work {
+        padding-bottom: 45px;
+	}
+	.common_item_2 {
+    	margin-top: 29px;
+	}
+	.common_item_2 h2 {
+    	font-size: 22px;
+    	margin-bottom: 2px;
+	}
+	.common_item_2 p {
+    	font-size: 12px;
+    	margin-bottom: 2px;
+	}
+	.common_item_2 hr {
+    	width: 26px;
+    	border-bottom: 3px solid #ffffff;
+    	margin-bottom: 22px;
+	}
+	.overlay_text h2 {
+    	font-size: 13px;
+   	}
+   	.overlay_text p {
+        font-size: 8px;
+   	}
+	/*our work end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	/*header_2 start*/
+	.b_margin {
+    	margin: 10px 0px;
+	}
+	/*header_2 end*/
+	/*header end*/
+	/*bannar start*/
+	#bannar{
+		background-color: brown;
+	}
+	.margin {
+    margin-top: 44px;
+    margin-bottom: 61px;
+	}	
+	.text h2{
+		font-size: 34px;
+	}
+	.text p{
+		font-size: 24px;
+	}
+	.b_yellow{
+		font-size: 17.43px;
+	}
+	/*bannar end*/
+	/*about us start*/
+	.common_item {
+    	margin-top: 48px;
+	}
+	.common_item h2{
+    	font-size: 29px;
+	}
+	.common_item p{
+    	font-size: 16px;
+	}
+	.common_item hr{
+    	width: 31px;
+	}
+	.about_us {
+    	margin: 23px 0px 31px;
+    	padding: 0px 71px;
+	}
+	.about_us_text h2{
+    	font-size: 20px;
+	}
+	.about_us_text p{
+    	font-size: 12.5px;
+	}
+	.about_us_img{
+		height: 76px;
+    	margin-bottom: 10px;
+	}
+	/*about us end*/
+	/*our approch start*/
+	#our_approch {
+		padding-bottom: 60px;
+	}
+	.card_text {
+    	padding: 22px 34px;
+    	text-align: center;
+	}
+	/*our approch end*/
+	/*our work start*/
+	#our_work {
+    	padding-bottom: 60px;
+	}
+	.common_item_2 {
+    	margin-top: 48px;
+	}
+	.common_item_2 h2{
+		font-size: 29px;
+	}
+	.common_item_2 p{
+		font-size: 16px;
+	}
+	.common_item_2 hr{
+		width: 31px;
+	}
+	.overlay_text h2 {
+        font-size: 23px;
+	}
+	.overlay_text p {
+        font-size: 14px;
+   	}
+	/*our work end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	/*header_2 start*/
+	.b_margin {
+    	margin: 10px 0px;
+	}
+	/*header_2 end*/
+	/*header end*/
+	/*bannar start*/
+	#bannar{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	.text h2{
+		font-size: 34px;
+	}
+	.text p{
+		font-size: 24px;
+	}
+	.b_yellow{
+		font-size: 17.43px;
+	}
+	/*bannar end*/
+	/*about us start*/
+	.common_item h2{
+    	font-size: 29px;
+	}
+	.common_item p{
+    	font-size: 16px;
+	}
+	.common_item hr{
+    	width: 31px;
+	}
+	.about_us{
+    	margin: 40px 0px 71px;
+    	padding: 0px 7px;
+	}
+	.about_us_text h2{
+    	font-size: 20px;
+	}
+	.about_us_text p{
+    	font-size: 12.5px;
+	}
+	.about_us_img{
+		height: 76px;
+    	margin-bottom: 10px;
+	}
+	/*about us end*/
+	/*Our approch start*/
+	.card_text {
+    	padding: 41px 105px;
+	}
+	.card_text h5 {
+    	font-size: 15px;
+    	margin-bottom: 3px;
+	}	
+	.card_text p {
+    	font-size: 9.5px;
+	}
+	.step_1 {
+    	left: 176px;
+    	bottom: 27px;
+	}
+	.step_2 {
+    	right: 176px;
+    	bottom: 27px;
+	}
+	/*Our approch end*/
+	/*Our work start*/
+	.common_item_2 h2{
+		font-size: 29px;
+	}
+	.common_item_2 p{
+		font-size: 16px;
+	}
+	.common_item_2 hr{
+		width: 31px;
+	}
+	.overlay_text h2 {
+        font-size: 15px;
+   	}
+   	.overlay_text p {
+        font-size: 9px;
+	}
+	/*Our work end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*bannar start*/
+	#bannar{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	.text h2{
+		font-size: 41px;
+	}
+	.text p{
+		font-size: 25px;
+	}
+	.b_yellow{
+		font-size: 21.43px;
+	}
+	/*bannar end*/
+	/*about us start*/
+	.common_item h2{
+    	font-size: 32px;
+	}
+	.common_item p{
+    	font-size: 17px;
+	}
+	.common_item hr{
+    	width: 36px;
+	}
+	.about_us {
+    	margin: 40px 0px 71px;
+    	padding: 0px 41px;
+	}
+	.about_us_text h2{
+    	font-size: 21px;
+	}
+	/*about us end*/
+	/*Our approch start*/
+	.card_text {
+    	padding: 69px 105px;
+	}
+	.card_text h5 {
+    	font-size: 17px;
+	}
+	.card_text p {
+    	font-size: 10.5px;
+   	}	
+	.step_1 {
+    	left: 254px;
+    	bottom: 55px;
+   	}
+	.step_2 {
+    	right: 254px;
+    	bottom: 55px;
+   	}
+	/*Our approch end*/
+	/*Our work start*/
+	.common_item_2 h2{
+		font-size: 32px;
+	}
+	.common_item_2 p{
+		font-size: 17px;
+	}
+	.common_item_2 hr{
+		width: 36px;
+	}
+	.overlay_text h2 {
+        font-size: 20px;
+	}
+	.overlay_text p {
+        font-size: 12px;
+	}
+	/*Our work end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/*bannar start*/
+	#bannar{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	/*bannar end*/
+}
